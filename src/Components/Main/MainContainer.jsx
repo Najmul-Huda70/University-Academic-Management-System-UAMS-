@@ -1,9 +1,8 @@
 import React from "react";
 import BoxContainer from "../../Global Components/BoxContainer";
-import RecentStudents from "../../Global Components/RecentStudents";
 import Notice from "../../Global Components/Notice";
-import About from "./About";
 import Rechart from "./chart/Rechart";
+import SearchInfo from "./SearchInfo";
 
 const MainContainer = () => {
   return (
@@ -57,8 +56,8 @@ const MainContainer = () => {
       </section>
       {/* rechart */}
       <Rechart></Rechart>
-      {/* Recent Students */}
-      <RecentStudents></RecentStudents>
+      {/* Search for the information you need */}
+      <SearchInfo></SearchInfo>
       {/* Notice */}
       <section className=" bg-white rounded-lg shadow-sm p-5 space-y-5">
         <div>

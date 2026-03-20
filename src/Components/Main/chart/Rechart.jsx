@@ -51,8 +51,8 @@ const data = [
 
 const Rechart = () => {
   return (
-    <div className="flex flex-col lg:flex-row gap-5 mt-10 h-140">
-      <div className="flex-1 p-4 card rounded-lg bg-white shadow-sm">
+    <div className="flex flex-col gap-5 mt-10 ">
+      <div className="p-4 card rounded-lg h-140 bg-white shadow-sm">
         <h3 className="text-2xl mb-2 font-semibold">Department Distribution</h3>
         <p className="text-lg mb-5 text-gray-600">Students by department</p>
         <ResponsiveContainer>
@@ -72,7 +72,7 @@ const Rechart = () => {
           </BarChart>
         </ResponsiveContainer>
       </div>
-      <div className="flex-1 card rounded-lg bg-white shadow-sm p-4">
+      <div className="card rounded-lg h-120 bg-white shadow-sm p-4">
         <h3 className="text-2xl mb-2 font-semibold">Department Distribution</h3>
         <p className="text-lg mb-5 text-gray-600">Teachers by department</p>
         <ResponsiveContainer>

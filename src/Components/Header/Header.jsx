@@ -3,7 +3,7 @@ import Profile from "./profile";
 import SquareIcon from "../../Global Components/squareIcon";
 import Mode from "../../Global Components/Mode";
 import Bell from "../../Global Components/bell";
-import NavbarList from "../../Global Components/NavbarList";
+import NavbarList from "../Main/NavbarList";
 
 const Header = () => {
   let [menuOpen, setMenuOpen] = useState(false);

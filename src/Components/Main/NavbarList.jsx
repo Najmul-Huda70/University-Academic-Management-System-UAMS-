@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import TextIcon from "./textIcon";
+import TextIcon from "../../Global Components/textIcon";
 
 const NavbarList = () => {
   let [collapse, setCollapse] = useState(false);

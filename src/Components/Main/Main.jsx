@@ -1,6 +1,6 @@
 import React from "react";
 import MainContainer from "./MainContainer";
-import NavbarList from "../../Global Components/NavbarList";
+import NavbarList from "./NavbarList";
 
 const Main = () => {
   return (
