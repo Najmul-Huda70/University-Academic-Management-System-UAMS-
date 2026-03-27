@@ -1,0 +1,290 @@
+{
+  "academicActivities": {
+    "years": [
+      {
+        "year": "1st Year",
+        "semesters": [
+          {
+            "semester": "1st Semester",
+            "courses": [
+              {
+                "courseId": "CSE-1101",
+                "title": "Introduction to Programming",
+                "credits": 3.0,
+                "type": "Theory",
+                "prerequisites": null
+              },
+              {
+                "courseId": "CSE-1102",
+                "title": "Programming Lab",
+                "credits": 1.5,
+                "type": "Practical",
+                "prerequisites": null
+              },
+              {
+                "courseId": "MATH-1101",
+                "title": "Calculus I",
+                "credits": 3.0,
+                "type": "Theory",
+                "prerequisites": null
+              },
+              {
+                "courseId": "PHY-1101",
+                "title": "Physics I",
+                "credits": 3.0,
+                "type": "Theory",
+                "prerequisites": null
+              }
+            ]
+          },
+          {
+            "semester": "2nd Semester",
+            "courses": [
+              {
+                "courseId": "CSE-1201",
+                "title": "Data Structures",
+                "credits": 3.0,
+                "type": "Theory",
+                "prerequisites": "CSE-1101"
+              },
+              {
+                "courseId": "CSE-1202",
+                "title": "Data Structures Lab",
+                "credits": 1.5,
+                "type": "Practical",
+                "prerequisites": "CSE-1102"
+              },
+              {
+                "courseId": "MATH-1201",
+                "title": "Linear Algebra",
+                "credits": 3.0,
+                "type": "Theory",
+                "prerequisites": "MATH-1101"
+              },
+              {
+                "courseId": "ENG-1201",
+                "title": "Technical English",
+                "credits": 2.0,
+                "type": "Theory",
+                "prerequisites": null
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "year": "2nd Year",
+        "semesters": [
+          {
+            "semester": "1st Semester",
+            "courses": [
+              {
+                "courseId": "CSE-2101",
+                "title": "Algorithms",
+                "credits": 3.0,
+                "type": "Theory",
+                "prerequisites": "CSE-1201"
+              },
+              {
+                "courseId": "CSE-2102",
+                "title": "Algorithms Lab",
+                "credits": 1.5,
+                "type": "Practical",
+                "prerequisites": "CSE-1202"
+              },
+              {
+                "courseId": "CSE-2103",
+                "title": "Digital Logic Design",
+                "credits": 3.0,
+                "type": "Theory",
+                "prerequisites": null
+              },
+              {
+                "courseId": "STAT-2101",
+                "title": "Probability and Statistics",
+                "credits": 3.0,
+                "type": "Theory",
+                "prerequisites": "MATH-1201"
+              }
+            ]
+          },
+          {
+            "semester": "2nd Semester",
+            "courses": [
+              {
+                "courseId": "CSE-2201",
+                "title": "Operating Systems",
+                "credits": 3.0,
+                "type": "Theory",
+                "prerequisites": "CSE-2101"
+              },
+              {
+                "courseId": "CSE-2202",
+                "title": "Operating Systems Lab",
+                "credits": 1.5,
+                "type": "Practical",
+                "prerequisites": "CSE-2102"
+              },
+              {
+                "courseId": "CSE-2203",
+                "title": "Database Systems",
+                "credits": 3.0,
+                "type": "Theory",
+                "prerequisites": "CSE-1201"
+              },
+              {
+                "courseId": "CSE-2204",
+                "title": "Database Lab",
+                "credits": 1.5,
+                "type": "Practical",
+                "prerequisites": "CSE-1202"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "year": "3rd Year",
+        "semesters": [
+          {
+            "semester": "1st Semester",
+            "courses": [
+              {
+                "courseId": "CSE-3101",
+                "title": "Computer Networks",
+                "credits": 3.0,
+                "type": "Theory",
+                "prerequisites": "CSE-2201"
+              },
+              {
+                "courseId": "CSE-3102",
+                "title": "Networks Lab",
+                "credits": 1.5,
+                "type": "Practical",
+                "prerequisites": "CSE-2202"
+              },
+              {
+                "courseId": "CSE-3103",
+                "title": "Software Engineering",
+                "credits": 3.0,
+                "type": "Theory",
+                "prerequisites": "CSE-2203"
+              },
+              {
+                "courseId": "CSE-3104",
+                "title": "Theory of Computation",
+                "credits": 3.0,
+                "type": "Theory",
+                "prerequisites": "CSE-2101"
+              }
+            ]
+          },
+          {
+            "semester": "2nd Semester",
+            "courses": [
+              {
+                "courseId": "CSE-3201",
+                "title": "Artificial Intelligence",
+                "credits": 3.0,
+                "type": "Theory",
+                "prerequisites": "CSE-3103"
+              },
+              {
+                "courseId": "CSE-3202",
+                "title": "AI Lab",
+                "credits": 1.5,
+                "type": "Practical",
+                "prerequisites": "CSE-3102"
+              },
+              {
+                "courseId": "CSE-3203",
+                "title": "Compiler Design",
+                "credits": 3.0,
+                "type": "Theory",
+                "prerequisites": "CSE-3104"
+              },
+              {
+                "courseId": "CSE-3204",
+                "title": "Web Engineering",
+                "credits": 3.0,
+                "type": "Theory",
+                "prerequisites": null
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "year": "4th Year",
+        "semesters": [
+          {
+            "semester": "1st Semester",
+            "courses": [
+              {
+                "courseId": "CSE-4101",
+                "title": "Machine Learning",
+                "credits": 3.0,
+                "type": "Theory",
+                "prerequisites": "CSE-3201"
+              },
+              {
+                "courseId": "CSE-4102",
+                "title": "ML Lab",
+                "credits": 1.5,
+                "type": "Practical",
+                "prerequisites": "CSE-3202"
+              },
+              {
+                "courseId": "CSE-4103",
+                "title": "Cloud Computing",
+                "credits": 3.0,
+                "type": "Theory",
+                "prerequisites": "CSE-3101"
+              },
+              {
+                "courseId": "CSE-4104",
+                "title": "Cyber Security",
+                "credits": 3.0,
+                "type": "Theory",
+                "prerequisites": "CSE-2201"
+              }
+            ]
+          },
+          {
+            "semester": "2nd Semester",
+            "courses": [
+              {
+                "courseId": "CSE-4201",
+                "title": "Final Year Project",
+                "credits": 6.0,
+                "type": "Practical",
+                "prerequisites": null
+              },
+              {
+                "courseId": "CSE-4202",
+                "title": "Internship",
+                "credits": 3.0,
+                "type": "Practical",
+                "prerequisites": null
+              },
+              {
+                "courseId": "CSE-4203",
+                "title": "Advanced Algorithms",
+                "credits": 3.0,
+                "type": "Theory",
+                "prerequisites": "CSE-2101"
+              },
+              {
+                "courseId": "CSE-4204",
+                "title": "Big Data Analytics",
+                "credits": 3.0,
+                "type": "Theory",
+                "prerequisites": "CSE-4101"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

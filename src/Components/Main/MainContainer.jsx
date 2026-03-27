@@ -2,7 +2,9 @@ import React from "react";
 import BoxContainer from "../../Global Components/BoxContainer";
 import Notice from "../../Global Components/Notice";
 import Rechart from "./chart/Rechart";
-import SearchInfo from "./SearchInfo";
+import SearchInfo from "./search Button/SearchInfo";
+import Academic from "./Academic/Academic";
+import Attendance from "../../Global Components/Modal/Attendance";
 
 const MainContainer = () => {
   return (
@@ -72,12 +74,15 @@ const MainContainer = () => {
         {/* notice.... */}
         <Notice></Notice>
         <Notice></Notice>
+        <div></div>
         <div className="w-full text-center">
-          <button className="btn bg-blue-400 hover:bg-blue-500 text-lg font-semibold rounded-full text-white cursor-pointer">
+          <button className="button">
             View All Notice <i class="fa-solid fa-arrow-right"></i>
           </button>
         </div>
       </section>
+      {/* Academic */}
+      <Academic></Academic>
     </div>
   );
 };

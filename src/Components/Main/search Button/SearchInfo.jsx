@@ -6,7 +6,7 @@ import Courses from "./CoursesBtn/Courses";
 // console.log(title[0].name);
 const SearchInfo = () => {
   let [activeId, setActiveId] = useState(1);
-  console.log(activeId);
+  // console.log(activeId);
   return (
     <>
       <h2 className="text-3xl mt-5 text-blue-400 font-semibold">

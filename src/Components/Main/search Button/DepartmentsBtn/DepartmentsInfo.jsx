@@ -1,5 +1,5 @@
 import React from "react";
-import SquareIcon from "../../../Global Components/squareIcon";
+import SquareIcon from "../../../../Global Components/squareIcon";
 const DepartmentsInfo = ({ data }) => {
   console.log(data);
   return (

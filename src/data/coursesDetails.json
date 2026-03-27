@@ -1,0 +1,598 @@
+{
+  "coursesMaterials": [
+    {
+      "courseId": "CSE-1101",
+      "referenceBooks": [
+        {
+          "title": "Programming Principles",
+          "author": "John Doe",
+          "addition": "3rd Edition"
+        }
+      ],
+      "notes": [
+        {
+          "title": "Intro to Variables",
+          "chapter": 1,
+          "lectureNo": 1,
+          "lectureDate": "2026-01-10"
+        },
+        {
+          "title": "Control Structures",
+          "chapter": 2,
+          "lectureNo": 2,
+          "lectureDate": "2026-01-15"
+        }
+      ]
+    },
+    {
+      "courseId": "CSE-1102",
+      "referenceBooks": [
+        {
+          "title": "Practical Programming",
+          "author": "Jane Smith",
+          "addition": "1st Edition"
+        }
+      ],
+      "notes": [
+        {
+          "title": "Lab Setup",
+          "chapter": 1,
+          "lectureNo": 1,
+          "lectureDate": "2026-01-12"
+        }
+      ]
+    },
+    {
+      "courseId": "MATH-1101",
+      "referenceBooks": [
+        {
+          "title": "Calculus for Beginners",
+          "author": "James Stewart",
+          "addition": "7th Edition"
+        }
+      ],
+      "notes": [
+        {
+          "title": "Limits and Continuity",
+          "chapter": 1,
+          "lectureNo": 1,
+          "lectureDate": "2026-01-11"
+        }
+      ]
+    },
+    {
+      "courseId": "PHY-1101",
+      "referenceBooks": [
+        {
+          "title": "Fundamentals of Physics",
+          "author": "Halliday & Resnick",
+          "addition": "10th Edition"
+        }
+      ],
+      "notes": [
+        {
+          "title": "Motion in One Dimension",
+          "chapter": 1,
+          "lectureNo": 1,
+          "lectureDate": "2026-01-12"
+        }
+      ]
+    },
+    {
+      "courseId": "CSE-1201",
+      "referenceBooks": [
+        {
+          "title": "Data Structures and Algorithms",
+          "author": "Mark Allen Weiss",
+          "addition": "4th Edition"
+        }
+      ],
+      "notes": [
+        {
+          "title": "Arrays and Lists",
+          "chapter": 1,
+          "lectureNo": 1,
+          "lectureDate": "2026-02-01"
+        },
+        {
+          "title": "Trees",
+          "chapter": 3,
+          "lectureNo": 5,
+          "lectureDate": "2026-02-15"
+        }
+      ]
+    },
+    {
+      "courseId": "CSE-1202",
+      "referenceBooks": [
+        {
+          "title": "Data Structures Lab Guide",
+          "author": "Jane Smith",
+          "addition": "2nd Edition"
+        }
+      ],
+      "notes": [
+        {
+          "title": "Linked Lists Lab",
+          "chapter": 1,
+          "lectureNo": 1,
+          "lectureDate": "2026-02-03"
+        }
+      ]
+    },
+    {
+      "courseId": "MATH-1201",
+      "referenceBooks": [
+        {
+          "title": "Linear Algebra and Its Applications",
+          "author": "Gilbert Strang",
+          "addition": "5th Edition"
+        }
+      ],
+      "notes": [
+        {
+          "title": "Vector Spaces",
+          "chapter": 1,
+          "lectureNo": 1,
+          "lectureDate": "2026-02-05"
+        }
+      ]
+    },
+    {
+      "courseId": "ENG-1201",
+      "referenceBooks": [
+        {
+          "title": "Technical English for Engineers",
+          "author": "A. K. Jain",
+          "addition": "2nd Edition"
+        }
+      ],
+      "notes": [
+        {
+          "title": "Writing Technical Reports",
+          "chapter": 1,
+          "lectureNo": 1,
+          "lectureDate": "2026-02-07"
+        }
+      ]
+    },
+    {
+      "courseId": "CSE-2101",
+      "referenceBooks": [
+        {
+          "title": "Introduction to Algorithms",
+          "author": "Cormen et al.",
+          "addition": "3rd Edition"
+        }
+      ],
+      "notes": [
+        {
+          "title": "Sorting Algorithms",
+          "chapter": 2,
+          "lectureNo": 1,
+          "lectureDate": "2026-03-01"
+        },
+        {
+          "title": "Graph Algorithms",
+          "chapter": 4,
+          "lectureNo": 5,
+          "lectureDate": "2026-03-15"
+        }
+      ]
+    },
+    {
+      "courseId": "CSE-2102",
+      "referenceBooks": [
+        {
+          "title": "Algorithms Lab Guide",
+          "author": "Jane Smith",
+          "addition": "1st Edition"
+        }
+      ],
+      "notes": [
+        {
+          "title": "Implementing Sorting",
+          "chapter": 2,
+          "lectureNo": 1,
+          "lectureDate": "2026-03-02"
+        }
+      ]
+    },
+    {
+      "courseId": "CSE-2103",
+      "referenceBooks": [
+        {
+          "title": "Digital Logic Design",
+          "author": "M. Morris Mano",
+          "addition": "5th Edition"
+        }
+      ],
+      "notes": [
+        {
+          "title": "Boolean Algebra",
+          "chapter": 1,
+          "lectureNo": 1,
+          "lectureDate": "2026-03-03"
+        }
+      ]
+    },
+    {
+      "courseId": "STAT-2101",
+      "referenceBooks": [
+        {
+          "title": "Probability and Statistics",
+          "author": "Devore",
+          "addition": "9th Edition"
+        }
+      ],
+      "notes": [
+        {
+          "title": "Probability Theory",
+          "chapter": 1,
+          "lectureNo": 1,
+          "lectureDate": "2026-03-04"
+        }
+      ]
+    },
+    {
+      "courseId": "CSE-2201",
+      "referenceBooks": [
+        {
+          "title": "Operating Systems Concepts",
+          "author": "Silberschatz et al.",
+          "addition": "10th Edition"
+        }
+      ],
+      "notes": [
+        {
+          "title": "Processes and Threads",
+          "chapter": 3,
+          "lectureNo": 1,
+          "lectureDate": "2026-04-01"
+        }
+      ]
+    },
+    {
+      "courseId": "CSE-2202",
+      "referenceBooks": [
+        {
+          "title": "Operating Systems Lab Manual",
+          "author": "Jane Smith",
+          "addition": "2nd Edition"
+        }
+      ],
+      "notes": [
+        {
+          "title": "Process Scheduling Lab",
+          "chapter": 3,
+          "lectureNo": 1,
+          "lectureDate": "2026-04-03"
+        }
+      ]
+    },
+    {
+      "courseId": "CSE-2203",
+      "referenceBooks": [
+        {
+          "title": "Database System Concepts",
+          "author": "Silberschatz et al.",
+          "addition": "7th Edition"
+        }
+      ],
+      "notes": [
+        {
+          "title": "ER Diagrams",
+          "chapter": 2,
+          "lectureNo": 1,
+          "lectureDate": "2026-04-05"
+        }
+      ]
+    },
+    {
+      "courseId": "CSE-2204",
+      "referenceBooks": [
+        {
+          "title": "Database Lab Manual",
+          "author": "Jane Smith",
+          "addition": "2nd Edition"
+        }
+      ],
+      "notes": [
+        {
+          "title": "SQL Queries Lab",
+          "chapter": 2,
+          "lectureNo": 1,
+          "lectureDate": "2026-04-06"
+        }
+      ]
+    },
+    {
+      "courseId": "CSE-3101",
+      "referenceBooks": [
+        {
+          "title": "Computer Networks",
+          "author": "Andrew S. Tanenbaum",
+          "addition": "6th Edition"
+        }
+      ],
+      "notes": [
+        {
+          "title": "OSI Model",
+          "chapter": 1,
+          "lectureNo": 1,
+          "lectureDate": "2026-05-01"
+        }
+      ]
+    },
+    {
+      "courseId": "CSE-3102",
+      "referenceBooks": [
+        {
+          "title": "Networks Lab Guide",
+          "author": "Jane Smith",
+          "addition": "1st Edition"
+        }
+      ],
+      "notes": [
+        {
+          "title": "Network Configuration Lab",
+          "chapter": 1,
+          "lectureNo": 1,
+          "lectureDate": "2026-05-02"
+        }
+      ]
+    },
+    {
+      "courseId": "CSE-3103",
+      "referenceBooks": [
+        {
+          "title": "Software Engineering",
+          "author": "Ian Sommerville",
+          "addition": "10th Edition"
+        }
+      ],
+      "notes": [
+        {
+          "title": "Software Development Life Cycle",
+          "chapter": 1,
+          "lectureNo": 1,
+          "lectureDate": "2026-05-03"
+        }
+      ]
+    },
+    {
+      "courseId": "CSE-3104",
+      "referenceBooks": [
+        {
+          "title": "Theory of Computation",
+          "author": "Michael Sipser",
+          "addition": "3rd Edition"
+        }
+      ],
+      "notes": [
+        {
+          "title": "Finite Automata",
+          "chapter": 1,
+          "lectureNo": 1,
+          "lectureDate": "2026-05-04"
+        }
+      ]
+    },
+    {
+      "courseId": "CSE-3201",
+      "referenceBooks": [
+        {
+          "title": "Artificial Intelligence: A Modern Approach",
+          "author": "Russell & Norvig",
+          "addition": "4th Edition"
+        }
+      ],
+      "notes": [
+        {
+          "title": "Introduction to AI",
+          "chapter": 1,
+          "lectureNo": 1,
+          "lectureDate": "2026-06-01"
+        }
+      ]
+    },
+    {
+      "courseId": "CSE-3202",
+      "referenceBooks": [
+        {
+          "title": "AI Lab Manual",
+          "author": "Jane Smith",
+          "addition": "1st Edition"
+        }
+      ],
+      "notes": [
+        {
+          "title": "AI Search Lab",
+          "chapter": 1,
+          "lectureNo": 1,
+          "lectureDate": "2026-06-02"
+        }
+      ]
+    },
+    {
+      "courseId": "CSE-3203",
+      "referenceBooks": [
+        {
+          "title": "Compiler Design",
+          "author": "Aho et al.",
+          "addition": "2nd Edition"
+        }
+      ],
+      "notes": [
+        {
+          "title": "Lexical Analysis",
+          "chapter": 1,
+          "lectureNo": 1,
+          "lectureDate": "2026-06-03"
+        }
+      ]
+    },
+    {
+      "courseId": "CSE-3204",
+      "referenceBooks": [
+        {
+          "title": "Web Engineering",
+          "author": "Flavio de Souza",
+          "addition": "1st Edition"
+        }
+      ],
+      "notes": [
+        {
+          "title": "Web Development Basics",
+          "chapter": 1,
+          "lectureNo": 1,
+          "lectureDate": "2026-06-04"
+        }
+      ]
+    },
+    {
+      "courseId": "CSE-4101",
+      "referenceBooks": [
+        {
+          "title": "Machine Learning",
+          "author": "Tom Mitchell",
+          "addition": "1st Edition"
+        }
+      ],
+      "notes": [
+        {
+          "title": "Supervised Learning",
+          "chapter": 1,
+          "lectureNo": 1,
+          "lectureDate": "2026-07-01"
+        }
+      ]
+    },
+    {
+      "courseId": "CSE-4102",
+      "referenceBooks": [
+        {
+          "title": "ML Lab Manual",
+          "author": "Jane Smith",
+          "addition": "1st Edition"
+        }
+      ],
+      "notes": [
+        {
+          "title": "Regression Lab",
+          "chapter": 1,
+          "lectureNo": 1,
+          "lectureDate": "2026-07-02"
+        }
+      ]
+    },
+    {
+      "courseId": "CSE-4103",
+      "referenceBooks": [
+        {
+          "title": "Cloud Computing",
+          "author": "Rajkumar Buyya",
+          "addition": "2nd Edition"
+        }
+      ],
+      "notes": [
+        {
+          "title": "Introduction to Cloud",
+          "chapter": 1,
+          "lectureNo": 1,
+          "lectureDate": "2026-07-03"
+        }
+      ]
+    },
+    {
+      "courseId": "CSE-4104",
+      "referenceBooks": [
+        {
+          "title": "Cyber Security Principles",
+          "author": "William Stallings",
+          "addition": "4th Edition"
+        }
+      ],
+      "notes": [
+        {
+          "title": "Network Security",
+          "chapter": 1,
+          "lectureNo": 1,
+          "lectureDate": "2026-07-04"
+        }
+      ]
+    },
+    {
+      "courseId": "CSE-4201",
+      "referenceBooks": [
+        {
+          "title": "Project Management for Engineers",
+          "author": "John Smith",
+          "addition": "1st Edition"
+        }
+      ],
+      "notes": [
+        {
+          "title": "Project Planning",
+          "chapter": 1,
+          "lectureNo": 1,
+          "lectureDate": "2026-08-01"
+        }
+      ]
+    },
+    {
+      "courseId": "CSE-4202",
+      "referenceBooks": [
+        {
+          "title": "Internship Guide",
+          "author": "Jane Smith",
+          "addition": "1st Edition"
+        }
+      ],
+      "notes": [
+        {
+          "title": "Industry Work Practices",
+          "chapter": 1,
+          "lectureNo": 1,
+          "lectureDate": "2026-08-02"
+        }
+      ]
+    },
+    {
+      "courseId": "CSE-4203",
+      "referenceBooks": [
+        {
+          "title": "Advanced Algorithms",
+          "author": "S. Dasgupta",
+          "addition": "1st Edition"
+        }
+      ],
+      "notes": [
+        {
+          "title": "Dynamic Programming",
+          "chapter": 1,
+          "lectureNo": 1,
+          "lectureDate": "2026-08-03"
+        }
+      ]
+    },
+    {
+      "courseId": "CSE-4204",
+      "referenceBooks": [
+        {
+          "title": "Big Data Analytics",
+          "author": "Jure Leskovec",
+          "addition": "1st Edition"
+        }
+      ],
+      "notes": [
+        {
+          "title": "Hadoop Basics",
+          "chapter": 1,
+          "lectureNo": 1,
+          "lectureDate": "2026-08-04"
+        }
+      ]
+    }
+  ]
+}

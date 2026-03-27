@@ -1,0 +1,78 @@
+[
+  {
+    "id": "CSE-24-01",
+    "attendance": [
+      { "date": "2026-03-20", "status": "on-time" },
+      { "date": "2026-03-21", "status": "late" },
+      { "date": "2026-03-22", "status": "absent" },
+      { "date": "2026-03-23", "status": "on-time" },
+      { "date": "2026-03-24", "status": "on-time" }
+    ]
+  },
+  {
+    "id": "CSE-24-02",
+    "attendance": [
+      { "date": "2026-03-20", "status": "on-time" },
+      { "date": "2026-03-21", "status": "absent" },
+      { "date": "2026-03-22", "status": "late" },
+      { "date": "2026-03-23", "status": "on-time" },
+      { "date": "2026-03-24", "status": "on-time" }
+    ]
+  },
+  {
+    "id": "CSE-24-03",
+    "attendance": [
+      { "date": "2026-03-20", "status": "absent" },
+      { "date": "2026-03-21", "status": "on-time" },
+      { "date": "2026-03-22", "status": "on-time" },
+      { "date": "2026-03-23", "status": "absent" },
+      { "date": "2026-03-24", "status": "late" },
+      { "date": "2026-03-20", "status": "absent" },
+      { "date": "2026-03-21", "status": "on-time" },
+      { "date": "2026-03-22", "status": "on-time" },
+      { "date": "2026-03-23", "status": "absent" },
+      { "date": "2026-03-24", "status": "late" },
+      { "date": "2026-03-20", "status": "absent" },
+      { "date": "2026-03-21", "status": "on-time" },
+      { "date": "2026-03-22", "status": "on-time" },
+      { "date": "2026-03-23", "status": "absent" },
+      { "date": "2026-03-24", "status": "late" },
+      { "date": "2026-03-24", "status": "late" },
+      { "date": "2026-03-20", "status": "absent" },
+      { "date": "2026-03-21", "status": "on-time" },
+      { "date": "2026-03-22", "status": "on-time" },
+      { "date": "2026-03-23", "status": "absent" },
+      { "date": "2026-03-24", "status": "late" },
+      { "date": "2026-03-20", "status": "absent" },
+      { "date": "2026-03-21", "status": "on-time" },
+      { "date": "2026-03-22", "status": "on-time" },
+      { "date": "2026-03-23", "status": "absent" },
+      { "date": "2026-03-24", "status": "late" },
+      { "date": "2026-03-20", "status": "absent" },
+      { "date": "2026-03-21", "status": "on-time" },
+      { "date": "2026-03-22", "status": "on-time" },
+      { "date": "2026-03-23", "status": "absent" },
+      { "date": "2026-03-24", "status": "late" }
+    ]
+  },
+  {
+    "id": "CSE-24-04",
+    "attendance": [
+      { "date": "2026-03-20", "status": "late" },
+      { "date": "2026-03-21", "status": "on-time" },
+      { "date": "2026-03-22", "status": "on-time" },
+      { "date": "2026-03-23", "status": "on-time" },
+      { "date": "2026-03-24", "status": "on-time" }
+    ]
+  },
+  {
+    "id": "CSE-24-05",
+    "attendance": [
+      { "date": "2026-03-20", "status": "on-time" },
+      { "date": "2026-03-21", "status": "absent" },
+      { "date": "2026-03-22", "status": "on-time" },
+      { "date": "2026-03-23", "status": "late" },
+      { "date": "2026-03-24", "status": "absent" }
+    ]
+  }
+]
