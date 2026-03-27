@@ -39,7 +39,7 @@ const AttendanceGrid = ({ studentName, data }) => {
         <div className="grid grid-cols-15 gap-2">
           {attendance.map((item, index) => {
             const { date, status } = item;
-            console.log(date, status);
+            // console.log(date, status);
             return (
               <div
                 key={index}
