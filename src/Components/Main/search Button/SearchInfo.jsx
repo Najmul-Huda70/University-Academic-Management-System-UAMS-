@@ -1,7 +1,7 @@
 import React, { useRef, useState } from "react";
 import Students from "./StudentBtn/Students";
 import Departments from "./DepartmentsBtn/Departments";
-import Courses from "./CoursesBtn/Courses";
+import Courses from "./CoursesBtn/CoursesBTN";
 import AddStudent from "../../../Global Components/Modal/AddStudent";
 // console.log(title[0].name);
 const SearchInfo = () => {

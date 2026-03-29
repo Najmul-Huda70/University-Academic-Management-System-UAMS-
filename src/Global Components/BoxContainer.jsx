@@ -3,7 +3,7 @@ import SquareIcon from "./squareIcon";
 
 const BoxContainer = ({ title, bg, color, icon, number, parcentage }) => {
   return (
-    <div className="card bg-base-100 grid  shadow-sm p-5 relative  min-w-60 min-h-50 overflow-hidden">
+    <div className="card-2 p-6 rounded-xl bg-white grid  shadow-sm min-w-60 min-h-50 overflow-hidden ">
       <h3 className="text-xl text-gray-500 font-semibold">{title}</h3>
       <span className="text-6xl font-bold">{number}</span>
       <p className="text-sm">

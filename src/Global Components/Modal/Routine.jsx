@@ -1,20 +1,14 @@
 import React from "react";
-import StudentData from "../../data/students.json";
-import AttendanceData from "../../data/Attendance.json";
 import neu from "../../assets/neu.jpg";
-import AttendanceGrid from "../AttendanceGrid";
-const Attendance = ({ course, attendanceRef }) => {
+
+const Routine = ({ course, routineRef }) => {
   // conditon takbe dite hobe apatoto data nai
-  const attendanceData = AttendanceData.find((item) => item.id === "CSE-24-03");
-  const studentName = StudentData.find(
-    (item) => item.id === "CSE-24-03",
-  ).student_name;
 
   return (
     <>
       {/* Modal without duplicate id, with className corrected */}
-      <dialog ref={attendanceRef} className="modal overflow-y-auto">
-        <div className=" text-black modal-box max-h-[95%] space-y-5 ">
+      <dialog ref={routineRef} className="modal overflow-y-auto">
+        <div className=" text-black modal-box space-y-5 ">
           <div className="flex gap-5">
             <div className="flex flex-wrap">
               <img className="w-18 h-23" src={neu} alt="logo" />
@@ -39,10 +33,23 @@ const Attendance = ({ course, attendanceRef }) => {
             <div className="text-gray-500">Credits: {course.credits}</div>
           </div>
           <section>
-            <AttendanceGrid
-              studentName={studentName}
-              data={attendanceData}
-            ></AttendanceGrid>
+            <div className="bg-slate-950 p-6 pt-2 rounded-xl text-white font-sans space-y-3">
+              <h2 className="text-xl font-semibold">Class Routine</h2>
+              <div className="grid grid-cols-4 gap-2 justify-evenly items-center">
+                <span>Day</span>
+                <span className="col-span-2">Time</span>
+                <span>Room</span>
+                <span>SAT</span>
+                <span className="col-span-2">9:00 AM - 10:30 AM</span>
+                <span>403-A</span>
+                <span>SUN</span>
+                <span className="col-span-2">2:00 PM - 3:30 PM</span>
+                <span>403-A</span>
+                <span>WED</span>
+                <span className="col-span-2">12:00 PM - 2:30 PM</span>
+                <span>403-A</span>
+              </div>
+            </div>
           </section>
         </div>
         <form method="dialog" className="modal-backdrop">
@@ -53,4 +60,4 @@ const Attendance = ({ course, attendanceRef }) => {
   );
 };
 
-export default Attendance;
+export default Routine;

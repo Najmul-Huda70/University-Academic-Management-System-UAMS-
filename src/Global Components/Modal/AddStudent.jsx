@@ -28,7 +28,7 @@ const addStudent = ({ activeId, addRef }) => {
   return (
     <>
       <dialog ref={addRef} className="modal">
-        <div className="modal-box container">
+        <div className="modal-box max-h-[95%] container">
           <form method="dialog">
             <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">
               ✕

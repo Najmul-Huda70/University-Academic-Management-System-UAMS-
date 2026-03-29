@@ -18,7 +18,7 @@ const Profile = () => {
           </div>
           <div>
             <h3 className="text-left text-xl/4 font-semibold">Najmul Huda</h3>
-            <p className="text-left text-gray-400 text-lg">Admin</p>
+            <p className="text-left text-gray-400 text-lg">Student</p>
           </div>
           <div>
             <i class="text-gray-400 text-md fa-solid fa-angle-down"></i>

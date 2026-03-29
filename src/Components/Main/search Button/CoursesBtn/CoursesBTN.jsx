@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import CoursesInfo from "./CoursesInfo";
+import Course from "../../Academic/Course";
 const courses = [
   {
     id: "COUR-01",
@@ -298,7 +299,7 @@ const courses = [
     Enrolled: 4,
   },
 ];
-const Courses = () => {
+const CoursesBTN = () => {
   const itemsPerPage = 10;
   let [currentPage, setCurrentPage] = useState(1);
   const totalItems = courses.length;
@@ -378,4 +379,4 @@ const Courses = () => {
   );
 };
 
-export default Courses;
+export default CoursesBTN;

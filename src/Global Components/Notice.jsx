@@ -2,7 +2,7 @@ import React from "react";
 
 const Notice = () => {
   return (
-    <div className="flex flex-col md:flex-row shadow gap-2 rounded-lg">
+    <div className="card-3 flex flex-col md:flex-row shadow gap-2 rounded-lg">
       <div className=" bg-blue-400 p-4 flex justify-center items-center  rounded-t-lg md:rounded-l-lg">
         <div className="flex gap-3 md:flex-col  text-white text-2xl text-center font-bold">
           <span>01</span>

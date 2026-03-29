@@ -275,3 +275,37 @@ summary::-webkit-details-marker {
   color: #0099ff;
   font-size: 9px;
 }
+
+/* card */
+.card-1 {
+  /* border-radius: 20px; */
+  /* background: #fff; */
+  position: relative;
+  /* padding: 1.8rem; */
+  border: 2px solid #c3c6ce;
+  transition: 0.5s ease-out;
+  /* overflow: visible; */
+}
+.card-1:hover {
+  border-color: #008bf8;
+  box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
+}
+
+.card-2 {
+  position: relative;
+  border: 1px solid #fff;
+  transition: 0.5s ease-out;
+}
+.card-2:hover {
+  border-color: #008bf8;
+  box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
+}
+.card-3 {
+  position: relative;
+  border: 1px solid #fff;
+  transition: 0.5s ease-out;
+}
+.card-3:hover {
+  border-color: #7fa3bf;
+  box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
+}

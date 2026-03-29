@@ -16,7 +16,9 @@ const AttendanceGrid = ({ studentName, data }) => {
 
   return (
     <div className="bg-slate-950 p-6 pt-2 rounded-xl text-white font-sans">
-      <div>{studentName}</div>
+      <div className="text-xl font-semibold mb-4">
+        Attendance for <span className="text-yellow-200">{studentName}</span>
+      </div>
       <div className="flex justify-between items-center mb-3">
         <h2 className="text-xl font-semibold">Detailed View</h2>
         <div className="flex gap-2">

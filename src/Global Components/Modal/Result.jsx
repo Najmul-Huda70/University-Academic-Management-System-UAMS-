@@ -1,20 +1,15 @@
 import React from "react";
 import StudentData from "../../data/students.json";
-import AttendanceData from "../../data/Attendance.json";
 import neu from "../../assets/neu.jpg";
-import AttendanceGrid from "../AttendanceGrid";
-const Attendance = ({ course, attendanceRef }) => {
-  // conditon takbe dite hobe apatoto data nai
-  const attendanceData = AttendanceData.find((item) => item.id === "CSE-24-03");
+const Result = ({ course, resultRef }) => {
   const studentName = StudentData.find(
     (item) => item.id === "CSE-24-03",
   ).student_name;
-
   return (
     <>
       {/* Modal without duplicate id, with className corrected */}
-      <dialog ref={attendanceRef} className="modal overflow-y-auto">
-        <div className=" text-black modal-box max-h-[95%] space-y-5 ">
+      <dialog ref={resultRef} className="modal overflow-y-auto">
+        <div className=" text-black modal-box space-y-5 ">
           <div className="flex gap-5">
             <div className="flex flex-wrap">
               <img className="w-18 h-23" src={neu} alt="logo" />
@@ -39,10 +34,33 @@ const Attendance = ({ course, attendanceRef }) => {
             <div className="text-gray-500">Credits: {course.credits}</div>
           </div>
           <section>
-            <AttendanceGrid
-              studentName={studentName}
-              data={attendanceData}
-            ></AttendanceGrid>
+            <div className="bg-slate-950 p-6 pt-2 rounded-xl text-white font-sans space-y-3">
+              <h2 className="text-xl font-semibold">
+                Result for{" "}
+                <span className="text-yellow-200">{studentName}</span>
+              </h2>
+
+              <div className="grid grid-cols-4 gap-2 justify-evenly items-center">
+                <span>Distribution</span>
+                <span className="col-span-2">get Marks</span>
+                <span>Marks</span>
+                <span>MID</span>
+                <span className="col-span-2">18</span>
+                <span>20</span>
+                <span>ATTENDANCE</span>
+                <span className="col-span-2">10</span>
+                <span>10</span>
+                <span>ASSIGNMENT</span>
+                <span className="col-span-2">10</span>
+                <span>10</span>
+                <span>FINAL</span>
+                <span className="col-span-2">55</span>
+                <span>60</span>
+                <span className="text-green-300">TOTAL</span>
+                <span className="col-span-2 text-green-300">93</span>
+                <span className="text-green-300">100</span>
+              </div>
+            </div>
           </section>
         </div>
         <form method="dialog" className="modal-backdrop">
@@ -53,4 +71,4 @@ const Attendance = ({ course, attendanceRef }) => {
   );
 };
 
-export default Attendance;
+export default Result;

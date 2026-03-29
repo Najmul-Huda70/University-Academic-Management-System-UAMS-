@@ -5,8 +5,78 @@ import Rechart from "./chart/Rechart";
 import SearchInfo from "./search Button/SearchInfo";
 import Academic from "./Academic/Academic";
 import Attendance from "../../Global Components/Modal/Attendance";
-
-const MainContainer = () => {
+import Course from "./search Button/CoursesBtn/CoursesBTN";
+import CoursesBTN from "./search Button/CoursesBtn/CoursesBTN";
+const adminBox = [
+  {
+    title: "Total Students",
+    number: 1500,
+    percentage: 20.54,
+    bg: "bg-blue-600",
+    color: "text-white",
+    icon: "fa-solid fa-graduation-cap",
+  },
+  {
+    title: "Total Teachers",
+    number: 120,
+    percentage: 15.2,
+    bg: "bg-green-600",
+    color: "text-white",
+    icon: "fa-solid fa-user-group",
+  },
+  {
+    title: "Total Courses",
+    number: 75,
+    percentage: 10.1,
+    bg: "bg-purple-600",
+    color: "text-white",
+    icon: "fa-brands fa-leanpub",
+  },
+  {
+    title: "Departments",
+    number: 12,
+    percentage: 5.25,
+    bg: "bg-yellow-600",
+    color: "text-white",
+    icon: "fa-solid fa-layer-group",
+  },
+];
+const studentBox = [
+  {
+    title: "Enrolled Courses",
+    number: 5,
+    percentage: 10.5,
+    bg: "bg-blue-600",
+    color: "text-white",
+    icon: "fa-solid fa-graduation-cap",
+  },
+  {
+    title: "Active Courses",
+    number: 3,
+    percentage: 5.2,
+    bg: "bg-green-600",
+    color: "text-white",
+    icon: "fa-solid fa-user-group",
+  },
+  {
+    title: "Completed Tasks",
+    number: 4,
+    percentage: 12.3,
+    bg: "bg-purple-600",
+    color: "text-white",
+    icon: "fa-brands fa-leanpub",
+  },
+  {
+    title: "Pending Tasks",
+    number: 1,
+    percentage: -2.1,
+    bg: "bg-yellow-600",
+    color: "text-white",
+    icon: "fa-solid fa-layer-group",
+  },
+];
+const MainContainer = ({ role = "Student" }) => {
+  const box = role === "admin" ? adminBox : studentBox;
   return (
     <div className=" w-full m-5">
       {/* dashboard title */}
@@ -22,44 +92,24 @@ const MainContainer = () => {
         </div>
       </section>
       {/* box-container */}
-      <section className="grid grid-cols-1 justify-items-center sm:grid-cols-2  xl:grid-cols-4  mt-12 gap-5 lg:gap-12">
-        <BoxContainer
-          title="Total Students"
-          bg="bg-blue-600"
-          color="text-white"
-          icon={<i class="fa-solid fa-graduation-cap"></i>}
-          number={1500}
-          parcentage={20.54}
-        ></BoxContainer>
-        <BoxContainer
-          title="Total Teachers"
-          bg="bg-green-600"
-          color="text-white"
-          icon={<i class="fa-solid fa-user-group"></i>}
-          number={1500}
-          parcentage={20.54}
-        ></BoxContainer>
-        <BoxContainer
-          title="Total Courses"
-          bg="bg-purple-600"
-          color="text-white"
-          icon={<i class="fa-brands fa-leanpub"></i>}
-          number={1500}
-          parcentage={20.54}
-        ></BoxContainer>
-        <BoxContainer
-          title="Departments"
-          bg="bg-yellow-600"
-          color="text-white"
-          icon={<i class="fa-solid fa-layer-group"></i>}
-          number={1500}
-          parcentage={20.54}
-        ></BoxContainer>
+      <section className="grid grid-cols-1 justify-items-center sm:grid-cols-2  xl:grid-cols-4  mt-12 gap-3 lg:gap-8">
+        {box.map((card, index) => (
+          <BoxContainer
+            key={index}
+            title={card.title}
+            bg={card.bg}
+            color={card.color}
+            icon={<i className={card.icon}></i>}
+            number={card.number}
+            parcentage={card.percentage}
+          ></BoxContainer>
+        ))}
       </section>
       {/* rechart */}
-      <Rechart></Rechart>
+      {/* <Rechart></Rechart> */}
       {/* Search for the information you need */}
-      <SearchInfo></SearchInfo>
+      {/* <SearchInfo></SearchInfo> */}
+      <CoursesBTN></CoursesBTN>
       {/* Notice */}
       <section className=" bg-white rounded-lg shadow-sm p-5 space-y-5">
         <div>

@@ -12,7 +12,7 @@ const BooksNotes = ({ course, booksNotesRef }) => {
     <>
       {/* Modal without duplicate id, with className corrected */}
       <dialog ref={booksNotesRef} className="modal overflow-y-auto">
-        <div className="text-black modal-box space-y-5">
+        <div className="text-black modal-box max-h-[95%] space-y-5">
           <h1 className="text-3xl text-blue-400 font-bold">
             {course.courseId}: {course.title}
           </h1>
